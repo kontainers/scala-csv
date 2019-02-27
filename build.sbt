@@ -15,7 +15,7 @@ TaskKey[Unit]("checkScalariform") := {
   }
 }
 
-organization := "com.github.tototoshi"
+organization := "io.kontainers"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.6-SNAP4" % Test,
@@ -87,7 +87,7 @@ publishTo := {
 
 publishArtifact in Test := false
 
-pomExtra := <url>http://github.com/tototoshi/scala-csv</url>
+pomExtra := <url>http://github.com/kontainers/scala-csv</url>
 <licenses>
   <license>
     <name>Apache License, Version 2.0</name>
